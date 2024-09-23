@@ -18,5 +18,7 @@ export function mensagem_do_grupo(grupo, numero){
     width: 800,
     background: '#002bb1',
     color: '#ffffff',
+    timer: 6000,
+    showConfirmButton: false,
   });
 }
