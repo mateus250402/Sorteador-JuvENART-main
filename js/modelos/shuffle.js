@@ -12,4 +12,11 @@ export function shuffle(array) {
       [array[currentIndex], array[randomIndex]] = [
         array[randomIndex], array[currentIndex]];
     }
+    
   }
+
+export function ordenar(arr){
+  arr.sort(function(a, b){
+    return a.classificacao - b.classificacao;
+})
+}

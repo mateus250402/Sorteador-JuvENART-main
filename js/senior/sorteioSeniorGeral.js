@@ -18,8 +18,8 @@ botao.onclick = function exibirGruposCabeca () {
 
 document.addEventListener('keypress', function (event) {
     if (event.key === 'Enter') {
-        let nome = document.getElementById(n)
-        let grupo = lista_geral[f]
+        let nome = document.getElementById(n);
+        let grupo = lista_geral[f];
     
         nome.innerHTML = (`${grupo}`);
 

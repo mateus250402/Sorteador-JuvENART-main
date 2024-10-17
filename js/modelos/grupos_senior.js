@@ -1,21 +1,22 @@
 import { Grupo } from "./grupo.js";
+import { GrupoC } from "./grupo.js";
 
 const rancho_da_saudade = new Grupo('00','CTG Rancho da Saudade','1','Cachoeirinha')
 let campeao_anterior = [rancho_da_saudade]
 
 //GRUPOS CABEÇA DE CHAVE  
-const querencia_da_serra = new Grupo('01','CTG Querência da Serra','9','Cruz Alta')
-const gildo_de_freitas = new Grupo('02','CTG Gildo de Freitas','1','Porto Alegre')
-const guapos_do_itapui = new Grupo('03','CTG Guapos do Itapuí','30','Campo Bom')
-const ibirapuita = new Grupo('04','GN Ibirapuitã','4','Alegrete')
-const pia_do_sul = new Grupo('05','CPF Piá do Sul','13','Santa Maria')
-const bocal_de_prata = new Grupo('06','PTG Bocal de Prata','23','Osório')
-const luiz_osorio = new Grupo('07','CTG Coronel Thomaz Luiz Osório','26','Pelotas')
-const mborore = new Grupo('08',"CTG M'Bororé",'30','Campo Bom')
-const aldeia = new Grupo('09','CTG Aldeia dos Anjos','1','Gravataí')
+const querencia_da_serra = new GrupoC('01','CTG Querência da Serra','9','Cruz Alta',1)
+const gildo_de_freitas = new GrupoC('02','CTG Gildo de Freitas','1','Porto Alegre',2)
+const guapos_do_itapui = new GrupoC('03','CTG Guapos do Itapuí','30','Campo Bom',3)
+const ibirapuita = new GrupoC('04','GN Ibirapuitã','4','Alegrete',4)
+const pia_do_sul = new GrupoC('05','CPF Piá do Sul','13','Santa Maria',5)
+const bocal_de_prata = new GrupoC('06','PTG Bocal de Prata','23','Osório',6)
+const luiz_osorio = new GrupoC('07','CTG Coronel Thomaz Luiz Osório','26','Pelotas',7)
+const mborore = new GrupoC('08',"CTG M'Bororé",'30','Campo Bom',8)
+const aldeia = new GrupoC('09','CTG Aldeia dos Anjos','1','Gravataí',9)
 
 //Lista com os cabeças de chave
-export let lista_cabeca = [querencia_da_serra, gildo_de_freitas, guapos_do_itapui, ibirapuita, pia_do_sul, bocal_de_prata, luiz_osorio, mborore, aldeia]
+export const lista_cabeca = [querencia_da_serra, gildo_de_freitas, guapos_do_itapui, ibirapuita, pia_do_sul, bocal_de_prata, luiz_osorio, mborore, aldeia];
 
 //GRUPOS GERAL
 const cftg = new Grupo('11','Centro Farroupilha de Tradições Gaúchas','4','Alegrete')
