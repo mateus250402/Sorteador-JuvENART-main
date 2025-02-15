@@ -5,9 +5,9 @@ const rancho_da_saudade = new Grupo('03','CTG Rancho da Saudade','1','Cachoeirin
 let campeao_anterior = [rancho_da_saudade];
 
 //GRUPOS CABEÇA DE CHAVE  
-const pia_do_sul = new GrupoC('01','CPF Piá do Sul','13','Santa Maria');
+const pia_do_sul = new GrupoC('01','CPF Piá do Sul','13','Santa Maria', 2);
 const estancia_da_serra = new GrupoC('07','CTG Estância da Serra','23','Osório');
-const aldeia_farroupilha = new GrupoC('11','CTG Aldeia Farroupilha','25','Farroupilha');
+const aldeia_farroupilha = new GrupoC('11','CTG Aldeia Farroupilha','25','Farroupilha', 5);
 
 //Lista com os cabeças de chave
 export const lista_cabeca = [pia_do_sul, estancia_da_serra, aldeia_farroupilha];
