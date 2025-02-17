@@ -1,10 +1,14 @@
 import { Grupo } from "./grupo.js";
+import { GrupoC } from "./grupoC.js";
 
 //Grupos cabeça de chave
-const caiboate = new GrupoC('01', 'CTG Caiboaté', '18', 'São Gabriel');
+const caiboate = new Grupo('01', 'CTG Caiboaté', '18', 'São Gabriel');
+const chaleira_preta = new Grupo('24', 'GF Chaleira Preta', '9', 'Ijuí');
+const tropilha_crioula = new Grupo('28', 'CTG Tropilha Crioula', '19', 'Getúlio Vargas');
+const palanques_da_tradição = new Grupo('29', 'CTG Palanques da Tradição', '30', 'Campo Bom');
 
 //Lista com os grupos cabeça de chave
-export let lista_cabeça = [caiboate];
+export let lista_cabeça = [caiboate, chaleira_preta, tropilha_crioula, palanques_da_tradição];
 
 //Grupos geral (Meu Deus...)
 const polivalente = new Grupo('02','DTG Polivalente','2','São Jerônimo');
@@ -28,8 +32,12 @@ const manoel_teixeira = new Grupo('19','CTG Manoel Teixeira','7','Tapejara');
 const lenco_preto = new Grupo('20','CTG Lenço Preto','19','Trindade do Sul');
 const ultima_tropeada = new Grupo('21','CTG Última Tropeada','11','Guapore');
 const laco_velho = new Grupo('22','CTG Laço Velho','11','Bento Gonçalves');
+const sentinela_da_serra = new Grupo('23','CTG Sentinela da Serra','11','Garibaldi');
+const retorno_a_querencia = new Grupo('25','CTG Retorno a Querência','11','Nova Prata');
+const chama_nativa = new Grupo('26','CTG Chama Nativa','12','Esteio');
+const jose_bonifacio = new Grupo('30','CTG José Bonifácio Gomes','12','São Leopoldo');
 
 //Lista dos grupos geral (MEU DEUS...)
-export let lista_geral = [polivalente, adaga_velha, timbauva, os_vaqueanos, sinuelo_dos_ervais, sinuelo, os_legalistas, cftg_farroupilha, sentinelas_da_tradição, galpao_do_chiru, lanceiros_do_mar, querencia_do_imbe, rincao_da_carolina, galpao_da_boa_vontade, coracao_do_rio_grande, rodeio_da_fronteira, dom_luiz, manoel_teixeira, lenco_preto, ultima_tropeada, laco_velho];
+export let lista_geral = [polivalente, adaga_velha, timbauva, os_vaqueanos, sinuelo_dos_ervais, sinuelo, os_legalistas, cftg_farroupilha, sentinelas_da_tradição, galpao_do_chiru, lanceiros_do_mar, querencia_do_imbe, rincao_da_carolina, galpao_da_boa_vontade, coracao_do_rio_grande, rodeio_da_fronteira, dom_luiz, manoel_teixeira, lenco_preto, ultima_tropeada, laco_velho, sentinela_da_serra, retorno_a_querencia, chama_nativa, jose_bonifacio];
 
 export let lista_total = lista_cabeça.concat(lista_geral)
