@@ -2,14 +2,16 @@ import { Grupo } from "./grupo.js";
 import { GrupoC } from "./grupoC.js";
 
 //Grupos cabeça de chave
-const caiboate = new Grupo('01', 'CTG Caiboaté', '18', 'São Gabriel');
-const chaleira_preta = new Grupo('24', 'GF Chaleira Preta', '9', 'Ijuí');
-const tropilha_crioula = new Grupo('28', 'CTG Tropilha Crioula', '19', 'Getúlio Vargas');
-const palanques_da_tradição = new Grupo('29', 'CTG Palanques da Tradição', '30', 'Campo Bom');
-const tropeiros_da_amizade = new Grupo('42', 'CTG Tropeiros da Amizade', '21', 'Canguçu');
+const caiboate = new GrupoC('01', 'CTG Caiboaté', '18', 'São Gabriel');
+const chaleira_preta = new GrupoC('24', 'GF Chaleira Preta', '9', 'Ijuí');
+const tropilha_crioula = new GrupoC('28', 'CTG Tropilha Crioula', '19', 'Getúlio Vargas');
+const palanques_da_tradição = new GrupoC('29', 'CTG Palanques da Tradição', '30', 'Campo Bom');
+const tropeiros_da_amizade = new GrupoC('42', 'CTG Tropeiros da Amizade', '21', 'Canguçu');
+const corredor_missioneiro = new GrupoC('60', 'CTG Corredor Missioneiro', '1', 'Porto Xavier');
+const sentinelas_do_pago = new GrupoC('56', 'CTG Sentinelas do Pago', '7', 'Marau');
 
 //Lista com os grupos cabeça de chave
-export let lista_cabeça = [caiboate, chaleira_preta, tropilha_crioula, palanques_da_tradição, tropeiros_da_amizade];
+export let lista_cabeça = [caiboate, chaleira_preta, tropilha_crioula, palanques_da_tradição, tropeiros_da_amizade, corredor_missioneiro, sentinelas_do_pago];
 
 //Grupos geral (Meu Deus...)
 const polivalente = new Grupo('02','DTG Polivalente','2','São Jerônimo');
@@ -47,8 +49,24 @@ const porteira_da_tradição = new Grupo('41','CTG Porteira da Tradição','1','
 const rancho_amigo = new Grupo('43','CTG Rancho Amigo','19','Barão de Cotegipe');
 const carreteiros_da_saudade = new Grupo('44','CTG Carreteiros da Saudade','5','Pantano Grande');
 const rancho_dos_tropeiros = new Grupo('45','CTG Rancho dos Tropeiros','9','Ibiruba');
+const vinte_de_setembro = new Grupo('46','CTG 20 de Setembro','23','Xangrilá');
+const prenda_minha = new Grupo('47','CTG Prenda Minha','18','Bagé');
+const sentinela_dos_pampas = new Grupo('48','CTG Sentinela dos Pampas','5','Candelária');
+const luiz_chirivino = new Grupo('49','CTG Luiz Chirivino','18','Candiota');
+const tropeiro_da_serra = new Grupo('50','CTG Tropeiro da Serra','15','Barão');
+const vaqueanos_da_cultura = new Grupo('51','GAN Vaqueanos da Cultura','14','Soledade');
+const galpao_da_saudade = new Grupo('52','CTG Galpão da Saudade','11','Serafina Corrêa');
+const osorio_de_assis = new Grupo('53','CTG Osório de Assis','14','Fontoura Xavier');
+const vinte_de_setembro_sa = new Grupo('54','CTG 20 de Setembro','3','Santo Ângelo');
+const gauderios_da_saudade = new Grupo('55','CTG Gaudérios da Saudade','30','Estância Velha');
+const caami = new Grupo('57','GR CAAMI Folclore e Arte Nativa','13','São Sepé');
+const tropeiro_velho = new Grupo('58','CTG Tropeiro Velho','9','Panambi');
+const serigote = new Grupo('59','CTG Serigote','30','Estância Velha');
+const ronda_charrua = new Grupo('61','CTG Ronda Charrua','25','Farroupilha');
+const joaquim_paulo_freitas = new Grupo('62','CTG Joaquim Paulo de Freitas','21','Canguçu');
+
 
 //Lista dos grupos geral (MEU DEUS...)
-export let lista_geral = [polivalente, adaga_velha, timbauva, os_vaqueanos, sinuelo_dos_ervais, sinuelo, os_legalistas, cftg_farroupilha, sentinelas_da_tradição, galpao_do_chiru, lanceiros_do_mar, querencia_do_imbe, rincao_da_carolina, galpao_da_boa_vontade, coracao_do_rio_grande, rodeio_da_fronteira, dom_luiz, manoel_teixeira, lenco_preto, ultima_tropeada, laco_velho, sentinela_da_serra, retorno_a_querencia, chama_nativa, jose_bonifacio, irmaos_sagrilo, essencia_da_tradicao, sentinela_dos_sinos, doze_bracas, rancho_de_gauderios, querencia_da_medianeira, porteira_da_tradição, rancho_amigo, carreteiros_da_saudade, rancho_dos_tropeiros];
+export let lista_geral = [polivalente, adaga_velha, timbauva, os_vaqueanos, sinuelo_dos_ervais, sinuelo, os_legalistas, cftg_farroupilha, sentinelas_da_tradição, galpao_do_chiru, lanceiros_do_mar, querencia_do_imbe, rincao_da_carolina, galpao_da_boa_vontade, coracao_do_rio_grande, rodeio_da_fronteira, dom_luiz, manoel_teixeira, lenco_preto, ultima_tropeada, laco_velho, sentinela_da_serra, retorno_a_querencia, chama_nativa, jose_bonifacio, irmaos_sagrilo, essencia_da_tradicao, sentinela_dos_sinos, doze_bracas, rancho_de_gauderios, querencia_da_medianeira, porteira_da_tradição, rancho_amigo, carreteiros_da_saudade, rancho_dos_tropeiros, vinte_de_setembro, prenda_minha, sentinela_dos_pampas, luiz_chirivino, tropeiro_da_serra, vaqueanos_da_cultura, galpao_da_saudade, osorio_de_assis, vinte_de_setembro_sa, gauderios_da_saudade, caami, tropeiro_velho, serigote, ronda_charrua, joaquim_paulo_freitas];
 
 export let lista_total = lista_cabeça.concat(lista_geral)

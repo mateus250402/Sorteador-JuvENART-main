@@ -28,9 +28,10 @@ const guapos_do_itapui = new Grupo('14','CTG Guapos do Itapuí','30','Campo Bom'
 const amanhecer_na_querencia = new Grupo('15','CTG Amanhecer na Querência','1','Alvorada');
 const velha_carreta = new Grupo('16','GTCN Velha Carreta','25','Caxias do Sul');
 const mborore = new Grupo('19',"CTG M'bororé",'30','Campo Bom');
+const tiarayu = new Grupo('21','CTG Tiarayu','1','Porto Alegre');
 
 //Lista com os grupos geral
-export let lista_geral = [felipe_portinho, camboata, os_farrapos, gt_sepe_tiaraju, charrua, lalau_miranda, alma_gaucha_18, guapos_do_itapui, amanhecer_na_querencia, velha_carreta, mborore];
+export let lista_geral = [felipe_portinho, camboata, os_farrapos, gt_sepe_tiaraju, charrua, lalau_miranda, alma_gaucha_18, guapos_do_itapui, amanhecer_na_querencia, velha_carreta, mborore, tiarayu];
 
 let arrayProvisorio = campeao_anterior.concat(lista_cabeca);
 
